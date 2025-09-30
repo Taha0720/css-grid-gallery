@@ -1,0 +1,36 @@
+body
+{
+    background: #0f2030;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 24px;
+}
+.grid
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 120px);
+    gap: 10px;
+    background: #22384a;
+    padding: 12px;
+    border-radius: 6px;
+    max-width: 720px;
+}
+.item
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    border-radius: 4px;
+    color: #fff;
+}
+.c1{
+    background: #f47f61;
+}
+.c2{
+    background: #12b39a;
+}
+.c3{
+    background: #f15a24;
+}
